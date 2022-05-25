@@ -33,15 +33,7 @@ function computerPlay() {
     document.getElementById("yourScore").textContent = playerScore;
     document.getElementById("computerScore").textContent = computerScore;
   });
-  // document.getElementById("paper").addEventListener("click", play("paper"));
-  // document.getElementById("scissors").addEventListener("click", play("scissors"));
   
-  // function play(player) {
-  //   const result = playRound(player, computerPlay);
-  //   document.getElementById("div").innerText = "hello";
-  // }
-  
-  //Compare computer choice with players choice
   function playRound(playerSelection, computerSelection) {
     if (
       playerSelection.toLowerCase() === "rock" &&
